@@ -8,10 +8,12 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+
+1. Import required libraries and create the **employee dataset using Pandas.
+2. Convert categorical features like **Departments and Salary** into numerical values using **one-hot encoding**.
+3. Split the dataset into **features (X)** and **target variable (y)**, then perform **train-test split**.
+4. Create and train the **Decision Tree Classifier** using the training data.
+5. Predict employee churn using the test data and **evaluate the model using confusion matrix, accuracy, and classification report**, then visualize the decision tree.
 
 ## Program:
 ```
@@ -99,8 +101,10 @@ plt.show()
 ```
 
 ## Output:
-![decision tree classifier model](sam.png)
 
+<img width="1375" height="348" alt="ML EXP-8 (1)" src="https://github.com/user-attachments/assets/2ea87698-3678-4224-9561-f3ef2b23b41e" />
+
+<img width="1268" height="770" alt="ML EXP - 8 (2)" src="https://github.com/user-attachments/assets/2f8141c5-f449-4c5a-9a83-3e262a1fc269" />
 
 ## Result:
 Thus the program to implement the  Decision Tree Classifier Model for Predicting Employee Churn is written and verified using python programming.
