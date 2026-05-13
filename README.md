@@ -9,7 +9,7 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 
 ## Algorithm
 
-1. Import required libraries and create the **employee dataset using Pandas.
+1. Import required libraries and create the **employee dataset** using Pandas.
 2. Convert categorical features like **Departments and Salary** into numerical values using **one-hot encoding**.
 3. Split the dataset into **features (X)** and **target variable (y)**, then perform **train-test split**.
 4. Create and train the **Decision Tree Classifier** using the training data.
